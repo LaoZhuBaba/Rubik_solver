@@ -31,4 +31,3 @@ below.  This requires a wider terminal screen to display and is mainly useful fo
                                        ABSOLUTE_CUBE_2D_XY[square][1],
                                        self.absolute_cube[ self.relative_cube[square] ],
                                        str(square) )
-
