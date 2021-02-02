@@ -10,6 +10,8 @@ from data_def import ABSOLUTE_CUBE_2D_XY       # Used in: draw_2d_absolute_cube(
 from data_def import X_LEFT, X_RIGHT           # Used in: rotate_horizonal_middle()
 from data_def import Y_UP, Y_DOWN              # Used in: rotate_vertical_middle()
 
+if sys.version_info[0] >= 3:
+    unicode = str
 
 COLOURS = RED, GREEN, YELLOW, BLUE, WHITE, MAGENTA = range(6) 
 

@@ -11,6 +11,9 @@ I have made very little attempt to accommodate different terminal screen sizes s
 results unless your terminal supports about 50 rows and a reasonably large number of
 columns.
 
+Feb 2020.  I have made minor changes to support Python 3.  Both Python 3.8.5 and 2.7.18 seem
+to work okay.
+
 Note that speed of both muddling and solving are deliberately slowed by timeout=0.1 parameter
 below.  This effectively adds a 0.1 second sleep every time a redraw occurs.  And you can enable
 simultaneously displaying a second "relative" view of the cube by removing the "return" statement
