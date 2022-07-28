@@ -1,10 +1,10 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import sys
 import time
 import random
 from display import t, print_info_block, mf
-from rubik_class import rc
+from rubik_class import Rubik as rc
 from solve_l1 import solve_layer1_edges, solve_layer1_corners
 from solve_l2 import solve_layer2
 from solve_l3 import flip_edges, rotate_l3_edges, reposition_l3_corners, spin_l3_corners

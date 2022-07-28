@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 from display import mf
-from rubik_class import rc
+from rubik_class import Rubik as rc
 from data_def import CLOCKWISE, ANTICLOCKWISE, X_LEFT
 
 def solve_layer1_edges():

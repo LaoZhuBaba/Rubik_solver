@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import sys
 import time
-#sys.path.append( '/root/python' )
 from blessed import Terminal
 
 t = Terminal()

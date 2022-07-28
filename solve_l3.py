@@ -3,7 +3,7 @@
 import sys
 import time
 from display import mf
-from rubik_class import rc, CLOCKWISE, ANTICLOCKWISE
+from rubik_class import Rubik as rc, CLOCKWISE, ANTICLOCKWISE
 from data_def import Y_UP, Y_DOWN, X_RIGHT
 
 def flip_edges():
